@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: row;
+  align-items: center !important;
+  color: white !important;
+
+}
+
+.wrapper > div > div {
+  color: white !important;
+  background-color: rgba(255, 255, 255, 0.176);
+  border-radius: 10px;
+  width: 22vw;
+}
+
+.searchIcon {
+  fill: white !important;
+  color: white;;
+}

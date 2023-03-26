@@ -1,0 +1,52 @@
+.cardContent {
+  height: 40% !important;
+}
+
+.productWrapper {
+  width: 24% !important;
+  max-width: 24% !important;
+  margin: 25px !important;
+  background: white !important;
+  border-radius: 10px;
+  height: 90% !important;
+  padding: 10px !important;
+  position: relative;
+}
+
+.productImage {
+  height: 65% !important;
+  background-size: 350px 350px !important;
+}
+
+.nameAndPrice {
+  margin: 5px 0px !important;
+  position: relative;
+  padding: 0px !important;
+}
+
+.productPrice {
+  position: absolute;
+  right: 0px;
+  top: 5px;
+}
+
+.cardActions {
+  position: absolute;
+  bottom: 10px;
+  height: 5% !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.editAndDelete {
+  width: 4vw;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}

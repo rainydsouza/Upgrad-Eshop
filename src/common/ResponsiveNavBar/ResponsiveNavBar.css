@@ -1,0 +1,30 @@
+.appBar {
+  background-color: #3443eb !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.toolBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 98vw;
+  flex: 1;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 15vw;
+  margin-right: 5vw;
+}
+
+.navbarWrapper {
+  width: 22vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

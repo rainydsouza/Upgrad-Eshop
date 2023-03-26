@@ -1,0 +1,19 @@
+.modal {
+  padding: 10px;
+  z-index: 2;
+  position: relative;
+}
+
+.modal > div {
+  background-color: white !important;
+}
+
+.closeModal {
+  cursor: pointer;
+  position: absolute !important;
+  top: 2vh;
+  left: 2vh;
+  font-weight: 900 !important;
+  font-size: 30px !important;
+  color: blue !important;
+}

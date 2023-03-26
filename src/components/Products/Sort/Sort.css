@@ -1,0 +1,6 @@
+.sortContainer {
+  display: flex !important;
+  align-items: center;
+  padding: 0 !important;
+  margin-left: 9vw;
+}

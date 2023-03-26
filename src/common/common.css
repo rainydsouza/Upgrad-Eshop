@@ -1,0 +1,36 @@
+.signUpIcon {
+  color: #ffffff;
+  background-color: red;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0px 0px;
+}
+
+.loginFooter {
+  margin: 0px !important;
+  color: grey;
+}
+
+.text {
+  margin: 0px 0px 10px 0px !important;
+  font-weight: 500;
+}
+
+.input {
+  margin: 8px 0px !important;
+  width: 80%;
+}
+
+.button {
+  background-color: #3443eb !important;
+  margin: 8px 0px !important;
+  width: 80%;
+}
+
+.checkbox {
+}
+
+.error {
+  color: red !important;
+  border: 1px solid red !important;
+}
