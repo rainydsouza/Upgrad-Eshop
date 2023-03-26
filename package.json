@@ -1,0 +1,61 @@
+{
+  "name": "upgrad-eshop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.12",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "formik": "^2.2.9",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.0",
+    "react-toastify": "^9.1.1",
+    "react-uuid": "^2.0.0",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.0.2"
+  },
+  "scripts": {
+    "start": "set HTTPS=true&&react-scripts start",
+    "build": "set HTTPS=true&&react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint:fix": "eslint src/ --fix",
+    "format": "prettier --write . && eslint src/ --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-plugin-react": "^7.32.2",
+    "https": "^1.0.0",
+    "prettier": "^2.8.4"
+  }
+}

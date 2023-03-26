@@ -1,0 +1,9 @@
+services:
+  frontend:
+    container_name: upgradEshop-fe
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: frontend
+    ports:
+      - '3000:3000'
